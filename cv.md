@@ -14,10 +14,21 @@ discord: farguz
 * Electronic Engineer
 * Software Develover wannabe
 ***
+### Experience
+9yrs+
+***
 ### Skills
 * PCAD2006 hero
 * Altium Designer master
 * Python loser
+***
+### Education
+1. Saint Petersburg University of Telecommunications Electrical, Electronic and Communications Engineering Technology   
+2007-2012   
+Master's degree
+1. MIT (EDX)   
+Introduction to Computer Science and Programming Using Python   
+2020
 ***
 ### Code example
 ```
@@ -38,17 +49,6 @@ def pig_it(text):
         return_string += elem + ' '
     return return_string[:-1]
  ```
-***
-### Experience
-9yrs+
-***
-### Education
-1. Saint Petersburg University of Telecommunications Electrical, Electronic and Communications Engineering Technology   
-2007-2012   
-Master's degree
-1. MIT (EDX)   
-Introduction to Computer Science and Programming Using Python   
-2020
 ***
 ### Languages
 * Russian: Native
