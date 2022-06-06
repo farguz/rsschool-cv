@@ -1,6 +1,6 @@
 ## Aleksei Zaletov
 ***
-my pic will be here
+![My avatar](https://upload.wikimedia.org/wikipedia/ru/8/8d/%D0%A1%D0%BB%D0%BE%D1%83%D0%BF%D0%BE%D0%BA.png)
 ***
 ### Contact info
 email: fakemail@gmail.com  
