@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <link rel="icon" href="assets/favicon.ico"
+    <link rel="icon" href="assets/favicon.ico">
     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,27 +20,91 @@
 <body>
 
     <header>
-        <div>
+        <nav>
             <a href="#contact">Contact info</a>
             <a href="#bio">Bio</a>
             <a href="#expirience">Expirience</a>
             <a href="#skills">Skills</a>
-            <a href="#">Education</a>
-            <a href="code">Code sample</a>
-            <a href="language">Languages</a>
-            <a href="extra">Extra</a>
-        </div>
+            <a href="#education">Education</a>
+            <a href="#code">Code sample</a>
+            <a href="#language">Languages</a>
+            <a href="#extra">Extra</a>
+        </nav>
     </header>
 
     <main>
+        <h3>Contact info</h3>
+        <a href = "mailto:farguzalexey@gmail.com">email</a>
+        <a href="tel:+79627213445">tel</a>
+        <a href="https://www.linkedin.com/in/aleksei-zaletov-92a2b0225/">linkedin</a>
 
+        <h3>Bio</h3>
+        <ul>
+            <li>Head of QA (non IT related)</li>
+            <li>Electronic Engineer</li>
+            <li>Software Develover wannabe</li>
+        </ul>
+
+        <h3>Expirience</h3>
+        <p>9+ yrs</p>
+
+        <h3>Skills</h3>
+        <ul>
+            <li>PCAD2006 hero</li>
+            <li>Altium Designer master</li>
+            <li>JS, CSS, HTML trainee</li>
+        </ul>
+
+        <h3>Education</h3>
+        <ol>
+            <li>Saint Petersburg University of Telecommunications Electrical, Electronic and Communications Engineering Technology
+                2007-2012
+                Master's degree</li>
+            <li>MIT (EDX)
+                2020
+                Introduction to Computer Science and Programming Using Python</li>
+        </ol>
+
+
+        <h3>Code example</h3>
+        <pre><code>import string
+
+            def pig_it(text):
+                text_list = text.split()
+                return_list = []
+                for word in text_list:
+                    if word not in string.punctuation:
+                        word += word[0] + 'ay'
+                        word = word[1:]
+                        return_list.append(word)
+                    else:
+                        return_list.append(word)
+                return_string = ''
+                for elem in return_list:
+                    return_string += elem + ' '
+                return return_string[:-1]
+        </code></pre> 
+ 
+        <h3>Languages</h3>
+        <ul>
+            <li>Russian: Native</li>
+            <li>English: B2</li>
+            <li>Spanish: A1</li>
+        </ul>
+
+
+        <h3>Extra</h3>
+        <span>I love to travel.
+        In spare time, I read sci-fi novels (Philip Dick is love).  
+        No bad habits.
+        </span>
     </main>
 
     <footer>
         <div>
-            <p text-align: left><a href="https://github.com/farguz"><img a href="https://rs.school/images/rs_school_js.svg" alt="RS School"></a></a></p>
+            <p text-align: left><a href="https://github.com/farguz"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School"></a></p>
             <p text-align: center>2022</p>
-            <p text-align: right><a href="https://rs.school/js/"><img a href="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github"></a></a></p>
+            <p text-align: right><a href="https://rs.school/js/"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github"></a></p>
         </div>
     </footer>
 </body>
