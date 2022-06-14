@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="icon" href="assets/favicon.ico">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Joan&display=swap" rel="stylesheet">
+
+    <title>Aleksei Zaletov CV</title>
+</head>
+
+<body>
+<div>
+    <header>
+        <nav>
+            <ul>
+                <li class="li-inline"><a href="#intro">Intro</a> | </li>
+                <li class="li-inline"><a href="#contact">Contact info</a> | </li>
+                <li class="li-inline"><a href="#bio">Bio</a> | </li>
+                <li class="li-inline"><a href="#experience">Experience</a> | </li>
+                <li class="li-inline"><a href="#skills">Skills</a> |</li>
+                <li class="li-inline"><a href="#education">Education</a> | </li>
+                <li class="li-inline"><a href="#code">Code sample</a> | </li>
+                <li class="li-inline"><a href="#language">Languages</a> | </li>
+                <li class="li-inline"><a href="#extra">Extra</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="intro">Hello! Glad to see you looking at my CV! :)</h1><hr>
+
+        <h2 id="contact">Contact info</h2>
+        <ul>
+            <li><a href = "mailto:farguzalexey@gmail.com">email</a><br></li>
+            <li><a href="tel:+79627213445">tel</a><br></li>
+            <li><a href="https://www.linkedin.com/in/aleksei-zaletov-92a2b0225/">linkedin</a></li>
+        </ul><hr>
+
+        <h2 id="bio">Bio</h2>
+        <img src="assets/img/az.JPG" alt="CVs owner photo" height="180" width="180">
+        <p>I wish to become JS/html/css trainee somewhere.</p>
+        <hr>
+        <p>Ex:</p>
+        <ul>
+            <li>Head of QA (non IT related)</li>
+            <li>Electronic Engineer</li>
+            <li>Software Develover wannabe</li>
+        </ul><hr>
+
+        <h2 id="experience">Experience</h2>
+        <p>9+ yrs</p><hr>
+
+        <h2 id="skills">Skills</h2>
+        <ul>
+            <li>PCAD2006 hero</li>
+            <li>Altium Designer master</li>
+            <li>JS, CSS, HTML entry level</li>
+            <li>Git basic commands</li>
+        </ul><hr>
+
+        <h2 id="education">Education</h2>
+        <ol>
+            <li><p>Saint Petersburg University of Telecommunications Electrical, Electronic and Communications Engineering Technology<br>
+                2007-2012<br>
+                Master's degree</p><br></li>
+            <li><p>MIT (EDX)<br>
+                2020<br>
+                Introduction to Computer Science and Programming Using Python</p></li>
+        </ol><hr>
+
+        <h2 id="code">Code sample</h2>
+        <code class="code">
+            from textwrap import wrap<br>
+
+            def data_reverse(data):<br>
+                data = ''.join([str(x) for x in data])<br>
+                data = wrap(str(data), 8)<br>
+                data.reverse()<br>
+                data = ''.join(data)<br>
+                return [int(x) for x in data]
+        </code><hr>
+        Also you can check some of my recent projects:
+        <ul>
+            <li><a href="https://github.com/farguz/rock_paper_scissors_medium_hyperskill">Rock, Scissors & paper game</a></li>
+            <li><a href="https://github.com/farguz/tic_tac_toe_easy_hyperskill">Tic Tac Toe game</a></li>
+        </ul><hr>
+ 
+        <h2 id="language">Languages</h2>
+        <ul>
+            <li>Russian: Native</li>
+            <li>English: B2</li>
+            <li>Spanish: A1</li>
+        </ul><hr>
+
+        <h2 id="extra">Extra</h2>
+        <div>I love to travel.<br>
+        In spare time, I read sci-fi novels (Philip Dick is love).<br>
+        No bad habits.
+        <hr>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School" height="30"></a>
+            <p class="li-inline" style="font-size: 2em; padding-left: 2em;">2022 ©</p>
+            <a href="https://github.com/farguz"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github" height="35"></a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

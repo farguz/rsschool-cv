@@ -1,2 +1,1 @@
-# rsschool-cv
-stage0
+https://farguz.github.io/rsschool-cv/
