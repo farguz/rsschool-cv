@@ -1,7 +1,21 @@
+* {
+    background-color: #fdf8b0;
+}
+
 body {
     font-family: 'Joan', serif;
-  }
+    text-align: center;
+}
+
 h2 {
     font-family: 'Fascinate', cursive;
-    font-size: 18px;
-  }
+    font-size: 18;
+}
+
+.code {
+    background-color: #f4ed92;
+}
+
+.li-inline {
+    display: inline;
+}
